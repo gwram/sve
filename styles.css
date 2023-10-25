@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  }
+
+header {  
+  padding: 30px 0px 30px 0px;
+  text-align: center;
+}
+
+header img {
+  width: 60%;
+  height: 200px;
+  
+}
+
+nav {
+  text-align: center;
+  white-space: nowrap;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin-right: 20px;
+  
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+.myButton {    
+  font-size: 22px;
+  line-height: 22px;
+  padding: 7px;
+  border-radius: 22px;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  background-color: rgba(163, 217, 246, 0.64);
+  display: inline-block;
+}
+
+.myButton:hover {
+    background: #1C6EA4; }
+
+    .myButton:active {
+        background: #144E75; }
+
+
+main {
+  max-width: 90%;
+  margin: 20px auto;
+  padding: 20px;
+      
+}
+
+article{
+  display: inline-block;    
+  width: 45%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  
+}
+
+article img {
+  width: 225px;
+  height: 225px;
+  float: right;
+  margin-left:20px;
+}
+
+
+h2 {
+  font-size: 24px;
+}
+
+.date {
+  font-size: 14px;
+  color: #777;
+}
+
+.read-more {
+  text-decoration: none;
+  color: #0074cc;
+  display: block;
+  margin-top: 10px;
+}
+
+footer{
+  border-top: 1px solid black;
+  text-align: center;
+}
+
+.materiales{
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.materiales img{
+  margin: 10px;
+  padding-left: 50px;
+}
+
