@@ -1,23 +1,25 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-  padding: 0;
+  padding: 0;  
   }
 
 header {  
   padding: 30px 0px 30px 0px;
   text-align: center;
+  background-color: #A3E6E6;
 }
 
 header img {
   width: 60%;
   height: 200px;
-  
+  border: 3px solid #000000;
 }
 
 nav {
   text-align: center;
   white-space: nowrap;
+  margin-top: 20px;
 }
 
 ul {
@@ -43,13 +45,10 @@ li a {
   padding: 7px;
   border-radius: 22px;
   font-family: "Arial Black", Gadget, sans-serif;
-  font-weight: normal;
-  text-decoration: none;
-  font-style: normal;
-  font-variant: normal;
-  text-transform: none;
   background-color: rgba(163, 217, 246, 0.64);
   display: inline-block;
+  text-decoration: none;
+  color: black;
 }
 
 .myButton:hover {
@@ -61,29 +60,32 @@ li a {
 
 main {
   max-width: 90%;
-  margin: 20px auto;
-  padding: 20px;
-      
+  margin: 0px auto;
+  padding: 20px;  
+  flex-direction: column;
+  position: relative;
 }
 
-article{
-  display: inline-block;    
-  width: 45%;
-  border: 1px solid #ccc;
-  
-  
+
+article{     
+  width: 90%;
+  border: 1px solid #ccc;   
+  margin: 5px;px;
 }
+
+
 
 article img {
   width: 225px;
   height: 225px;
   float: right;
-  margin-left:20px;
+  padding: 8px;
 }
 
 
+
 h2 {
-  font-size: 24px;
+  font-size: 28px;
 }
 
 .date {
@@ -107,6 +109,7 @@ footer{
   text-align: center;
   display: flex;
   align-items: center;
+  flex: 1;
 }
 
 .materiales img{
@@ -119,3 +122,52 @@ footer{
   justify-content: center;
 }
 
+.main-pub{ 
+  display: flex;  
+  align-items: center;
+  z-index: 2;  
+  width: 93%;
+  text-align: center;
+  height: 90%;
+}
+
+.main-pub img {
+  float: left;
+  
+}
+
+.blog-post{
+  display: inline-block;
+  width: 45%;
+  padding: 5px;
+  z-index: 1;
+}
+
+.main-pub p h2{  
+  display: inline-block;
+  text-align: center;
+  
+}
+
+.main-pub-cont{
+flex: 1;
+background-color: aquamarine;
+}
+
+.main-pub h2{
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size: 45px;
+letter-spacing: 0px;
+word-spacing: 0px;
+color: #000000;
+font-weight: 700;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+}
+
+.main-pub-cont h3{
+  color: palevioletred;
+  font-weight: 1000;
+}
